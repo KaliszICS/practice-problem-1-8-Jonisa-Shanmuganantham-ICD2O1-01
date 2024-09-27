@@ -29,7 +29,8 @@ def q4():
   print(bool1)
 
 def q5():
-  integer = input("Input an integer: ")
+  integer = input("Enter an integer: ")
+  integer = int(integer)
   num = integer % 2
   bool1 = num == 0
   print(f"The integer {integer} is {bool1}.")
