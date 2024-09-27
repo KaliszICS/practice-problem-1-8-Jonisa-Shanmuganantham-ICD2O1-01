@@ -2,7 +2,7 @@
     Lesson: Boolean Logic
     Author: Jonisa Shanmuganantham
     Date Created: Sept 26, 2024
-    Date Last Modified: Sept 26, 2024
+    Date Last Modified: Sept 27, 2024
 '''
 def q1():
   bool1 = True
