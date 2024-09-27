@@ -25,7 +25,7 @@ def q3():
 def q4():
   food = input("Input food: ")
   drink = input("Input drink: ")
-  bool1 = food != "pizza" and drink != "pop"
+  bool1 = food != "pizza" or drink != "pop"
   print(bool1)
 
 def q5():
