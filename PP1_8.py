@@ -13,8 +13,8 @@ def q1():
 def q2():
   integer = input("Enter an integer: ")
   integer = int(integer)
-  integer = integer not 0
-  print(integer)
+  bool1 = integer != 0
+  print(bool1)
 
 def q3():
   number = input("Enter a number: ")
@@ -23,10 +23,16 @@ def q3():
   print(number)
 
 def q4():
-  #Write Assignment code here
+  food = input("Input food: ")
+  drink = input("Input drink: ")
+  bool1 = food != "pizza" and drink != "pop"
+  print(bool1)
 
 def q5():
-  #Write Assignment code here
+  integer = input("Input an integer: ")
+  num = integer % 2
+  bool1 = num == 0
+  print(f"The integer {integer} is {bool1}.")
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
