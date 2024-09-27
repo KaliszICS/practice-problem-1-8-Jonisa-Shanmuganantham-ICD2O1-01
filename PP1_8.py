@@ -32,13 +32,14 @@ def q5():
   integer = input("Input an integer: ")
   num = integer % 2
   bool1 = num == 0
-  print(f"The integer {integer} is {bool1}.")
+  print(f"The integer {integer} is {bool1}.") 
 
 #Do not edit code after this
 #Comment out the followwing code when running tests
-
+'''
 q1()
 q2()
 q3()
 q4()
 q5()
+'''
