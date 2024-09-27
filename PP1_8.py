@@ -18,7 +18,7 @@ def q2():
 
 def q3():
   number = input("Enter a number: ")
-  number = int(number)
+  number = float(number)
   number = number >= 0 and number <= 10
   print(number)
 
